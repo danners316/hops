@@ -1,0 +1,161 @@
+/* NEW SECTION */
+
+/* Colors
+Dark Green: #659a26
+Light Green: #b6f954
+   Colors*/
+
+@font-face {
+  font-family: Garden;
+  src: url(fonts/GrowingGarden-Regular.ttf);
+}
+
+@font-face {
+  font-family: Geo Sans Light;
+  src: url(fonts/GeosansLight.ttf);
+}
+
+@font-face {
+  font-family: Winkle;
+  src: url(fonts/Winkle-Regular.ttf);
+}
+
+*{
+	font-family: 'Geo Sans Light';
+	font-size:22px;
+}
+
+nav{
+ max-width:1860px;
+ display: block;
+ margin: 0 auto;
+ /* Extra */
+ position: relative;
+}
+
+.hops_img{
+ width:175px;
+}
+
+nav ul{
+	position: absolute;
+	top:0;
+	right: 0;
+}
+
+nav a{
+	font-family: 'Winkle';
+	text-decoration: none;
+	color:#000;
+	font-size: 18px;
+}
+
+nav a:hover{
+	color:#659a26;
+}
+
+p.titleMast{
+	font-family: 'Garden';
+	color:#659a26;
+	border-top: 1px solid #b6f954;
+	padding-top:24px;
+	font-size: 24px;
+	letter-spacing: 0.1;
+	position: absolute;
+	top:50px;
+	right: 0;
+}
+
+
+nav ul li, footer ul li{
+	display: inline;
+	margin-left: 12px;
+	text-transform: lowercase;
+}
+
+nav ul li, footer ul li{
+	display: inline;
+	margin-left: 12px;
+	text-transform: lowercase;
+}
+
+/* NEW SECTION */
+
+.wrapper{
+ max-width:1860px;
+ display: block;
+ margin: 0 auto;
+ padding: 60px 0;
+ /* Extra */
+ min-height:600px;
+ clear:both;	
+}
+
+.wrapper p{
+	padding: 40px;
+}
+
+/* NEW SECTION */
+
+footer{
+ max-width:1860px;
+ display: block;
+ margin: 0 auto;
+ padding: 60px 0;
+ /* Extra */
+ background-color: #171818;
+ color: #fff;
+ text-align: center;
+}
+
+/* NEW SECTION */
+
+.slideshow{	
+ margin-top:0px;
+ max-width:1860px;
+ padding: 0 0 60px 0;
+ display: flex;
+ justify-content: center; 
+}
+
+.slides{
+	display: inline;
+	padding: 20px 8px;
+}
+
+.slides img{
+	width:100%;	
+}
+
+.slides{
+	opacity: 0.5;
+}
+
+.slides.slick-current.slick-active{
+	opacity: 1;
+	transition: opacity 1s ease-in-out;
+  	-moz-transition: opacity 1s ease-in-out;
+  	-webkit-transition: opacity 1s ease-in-out;
+	
+}
+
+/* NEW SECTION */
+
+.captions{
+ max-width:1860px;
+ display: block;
+ margin: 0 auto;
+ padding: 60px 20px;
+}
+
+.captions p{
+max-width:500px;
+display: block;
+margin: 0 auto;
+text-align: center;
+font-family: 'Winkle'; 
+font-size:32px;
+}
+
+
+
